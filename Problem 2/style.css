@@ -1,0 +1,45 @@
+body {
+    padding: 2em;
+}
+
+.headerContainer {
+    text-align: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Main container: Makes sure sidebars and content align properly */
+.mainContainer {
+    display: flex;
+    flex-direction: row; /* Ensure left sidebar, content, and right sidebar are in a row */
+    justify-content: space-between;
+    gap: 10px; /* Add space between elements */
+}
+
+.mainContentItem {
+    flex: 3; /* Main content takes more space */
+    background: deepskyblue;
+    padding: 10px;
+}
+
+.sideBarItem {
+    flex: 1; /* Sidebars take less space */
+    padding: 10px;
+    text-align: center;
+}
+
+.sideBarLeftItem { 
+    background: gold;
+}
+
+.sideBarRightItem { 
+    background: hotpink;
+}
+
+.footerContainer {
+    text-align: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 20px;
+}
